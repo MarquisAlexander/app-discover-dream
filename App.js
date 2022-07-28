@@ -8,7 +8,7 @@ const App = () => {
     <SafeAreaView style={{flex: 1, paddingTop: 24}}>
       <StatusBar
         backgroundColor="transparent"
-        barStyle="light-content"
+        barStyle="dark-content"
         translucent
       />
       <Login />
