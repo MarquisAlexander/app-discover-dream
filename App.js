@@ -1,7 +1,7 @@
 import React from 'react';
 import {SafeAreaView, StatusBar} from 'react-native';
 
-import {Login} from './src/screens/Login';
+import {Home} from './src/screens/Home';
 
 const App = () => {
   return (
@@ -11,7 +11,7 @@ const App = () => {
         barStyle="dark-content"
         translucent
       />
-      <Login />
+      <Home />
     </SafeAreaView>
   );
 };
