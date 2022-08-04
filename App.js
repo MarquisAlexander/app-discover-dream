@@ -1,7 +1,8 @@
+import 'react-native-gesture-handler';
 import React from 'react';
 import {SafeAreaView, StatusBar} from 'react-native';
 
-import {Home} from './src/screens/Home';
+import {Routes} from './src/routes';
 
 const App = () => {
   return (
@@ -11,7 +12,7 @@ const App = () => {
         barStyle="dark-content"
         translucent
       />
-      <Home />
+      <Routes />
     </SafeAreaView>
   );
 };
