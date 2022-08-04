@@ -13,7 +13,7 @@ export function Home() {
           avatar: 'https://github.com/marquisalexander.png',
           date: new Date(),
           description: 'Work by your house front a computer',
-          highlights: 'https://github.com/marquisalexander.png',
+          highlights: 'https://alonza.com.br/wp-content/uploads/2021/07/react-native.png',
         },
       },
     },
@@ -48,7 +48,7 @@ export function Home() {
                 />
                 <S.SenderInfo>
                   <S.SenderAvatar
-                    source={{uri: 'https://github.com/marquisalexander.png'}}
+                    source={{uri: 'http://comoajudarmeuproximo.com.br/wp-content/uploads/2018/08/user.png'}}
                   />
                   <S.Details>
                     <S.SenderName>
